@@ -1,0 +1,27 @@
+{
+  "name": "api4-project",
+  "version": "1.0.0",
+  "description": "In this challenge, you will build a simple Express app and deploy it to Heroku.",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "heroku-postbuild": "cd client && npm i && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "dotenv": "^10.0.0",
+    "node": "16.x",
+    "npm": "8.x"
+  }
+}
